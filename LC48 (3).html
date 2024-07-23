@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> <u> My Leetcode 48 </u></title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: black;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            color: Red;
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .description {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .description p {
+            flex-grow: 1;
+            margin-right: 20px;
+        }
+        .description img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 40px; /* Adjusted margin to move the picture slightly left */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #cc0000;
+            color: white;
+        }
+        button {
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Leetcode 48</h1>
+    <div class="description">
+        <p>
+            Hi, I'm Tejasree, a passionate coder and problem solver. Welcome to my collection of favorite Leetcode problems!
+        </p>
+        <img src="C:\Users\talur\OneDrive\Desktop\Internship\Projects\My LC List\Teju.jpg" alt="Your Picture">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Concepts</th>
+                <th>LC No.</th>
+                <th>Problem Name</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Arrays & Strings</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/two-sum/description/')">LC-01</button></td>
+                <td>Two Sum</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/two-sum/description/')">Link</button></td>
+            </tr>
+	    <tr>
+                <td>Arrays & Strings</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/longest-substring-without-repeating-characters/description/')">LC-03</button></td>
+                <td>Longest Substring w/o repeating characters</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/longest-substring-without-repeating-characters/description/')">Link</button></td>
+            </tr>
+	    <tr>
+                <td>Arrays & Strings</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/product-of-array-except-self/description/')">LC-238</button></td>
+                <td>Product of array Except Self</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/product-of-array-except-self/description/')">Link</button></td>
+            </tr>
+	    <tr>
+                <td>Arrays & Strings</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/maximum-subarray/description/')">LC-53</button></td>
+                <td>Maximum Subarray</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/maximum-subarray/description/')">Link</button></td>
+            </tr>
+	    <tr>
+                <td>Arrays & Strings</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/merge-intervals/description/')">LC-56</button></td>
+                <td>Merge Intervals</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/merge-intervals/description/')">Link</button></td>
+            </tr>
+
+            <tr>
+                <td>LinkedList</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/example2')">LC-206</button></td>
+                <td>Reverse LinkedList 2</td>
+                <td><button onclick="openProblem('https://leetcode.com/problems/example2')">Link</button></td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+    <script>
+        function openProblem(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
